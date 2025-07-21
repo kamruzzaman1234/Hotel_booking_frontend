@@ -16,7 +16,7 @@ const ExclusiveOffer = ()=>{
     return(
         <div className="py-[80px]">
             <div className="container">
-                <div className="flex flex-col gap-6">
+                <div className="flex flex-col gap-10">
                     <div>
                         <h2 className="sm:text-[18px] md:text-[25px]
                          lg:text-[30px] font-bold uppercase text-center">Exclusive offers</h2>
@@ -32,7 +32,7 @@ const ExclusiveOffer = ()=>{
                                 }}
                             modules={[FreeMode, Pagination]}
                             className="mySwiper ">
-                            <SwiperSlide className="w-full h-[350px] mb-[40px] bbb">
+                            <SwiperSlide className="w-full h-[350px] mb-[50px] bbb">
                                 <img src="https://i.ibb.co/vxSgvKmw/imggg.jpg"
                                  alt="" className="w-full h-full object-cover rounded-lg"/>
                                  <div className="blue rounded-lg space-y-4">

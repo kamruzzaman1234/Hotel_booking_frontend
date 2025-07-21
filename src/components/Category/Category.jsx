@@ -6,7 +6,7 @@ const Category = () => {
             <div className="container">
                 <div className="max-w-[1200px] w-full mx-auto bg-white shadow-lg border-4 border-yellow-500 rounded-lg">
                     <div className="py-[20px] px-[20px] space-y-6">
-                        <h2 className="text-center uppercase font-bold mb-2 sm:text-[20px] md:text-[26px] lg:text-[35px]">Popular Page</h2>
+                        <h2 className="text-center uppercase font-bold mb-2 sm:text-[20px] md:text-[26px] lg:text-[35px]">Popular Place</h2>
                         <div className="flex space-x-3 justify-center">
                             <button className="bg-none border-1 border-yellow-500 px-4 py-2 rounded font-medium uppercase text-black">Dhaka</button>
                             <button className="bg-none border-1 border-yellow-500 px-4 py-2 rounded font-medium uppercase text-black">Rangpur</button>
