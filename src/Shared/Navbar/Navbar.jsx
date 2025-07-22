@@ -23,10 +23,11 @@ const Navbar = ()=>{
     <Link to="/" className="uppercase font-bold text-white text-[18px] md:text-[20px] lg:text-[30px]">Hotel-Room</Link>
   </div>
   <div className="navbar-end">
+    
         <div className="flex space-x-2">
         <div className="flex space-x-3">
-            <Link to="/" className="btn bg-[#00001a] text-[14px] md:text-[15px] lg:text-[18px] uppercase text-white">Sign Up</Link>
-            <Link to="/" className="btn bg-[#00001a] text-[14px] md:text-[15px] lg:text-[18px] uppercase text-white">Register</Link>
+            <Link to="/login" className="btn bg-[#00001a] text-[14px] md:text-[15px] lg:text-[18px] uppercase text-white">Login</Link>
+            <Link to="/register" className="btn bg-[#00001a] text-[14px] md:text-[15px] lg:text-[18px] uppercase text-white">Register</Link>
 
         </div>
             <div className="dropdown dropdown-end">
